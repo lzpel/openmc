@@ -1,11 +1,11 @@
+#define _USE_MATH_DEFINES // to make M_PI declared in Intel and MSVC compilers
 #include "openmc/mesh.h"
 #include <algorithm> // for copy, equal, min, min_element
 #include <cassert>
-#include <cstdint>        // for uint64_t
-#include <cstring>        // for memcpy
-#define _USE_MATH_DEFINES // to make M_PI declared in Intel and MSVC compilers
-#include <cmath>          // for ceil
-#include <cstddef>        // for size_t
+#include <cmath>   // for ceil
+#include <cstddef> // for size_t
+#include <cstdint> // for uint64_t
+#include <cstring> // for memcpy
 #include <limits>
 #include <numeric> // for accumulate
 #include <string>

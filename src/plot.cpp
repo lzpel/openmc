@@ -1,7 +1,7 @@
+#define _USE_MATH_DEFINES // to make M_PI declared in Intel and MSVC compilers
 #include "openmc/plot.h"
 
 #include <algorithm>
-#define _USE_MATH_DEFINES // to make M_PI declared in Intel and MSVC compilers
 #include <cmath>
 #include <cstdio>
 #include <fstream>
