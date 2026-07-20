@@ -21,6 +21,8 @@ import sys
 # Determine shared-library suffix
 if sys.platform == 'darwin':
     _suffix = 'dylib'
+elif sys.platform == 'win32':
+    _suffix = 'dll'
 else:
     _suffix = 'so'
 
